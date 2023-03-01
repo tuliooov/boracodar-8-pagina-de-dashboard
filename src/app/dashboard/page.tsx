@@ -2,6 +2,7 @@
 
 import Card from "@/components/Card";
 import NPSCard from "@/components/NPSCard";
+import SalesCard from "@/components/SalesCard";
 import { Root, Row } from "./style";
 
 export const dynamic='force-dynamic';
@@ -11,10 +12,7 @@ export default function Dashboard({ searchParams }: any) {
         <Root>
             <Row columns={3} textAlign="center">
                 <NPSCard />
-                <Card title="Vendas fechadas">
-                    <p>grafico</p>
-                    <p>Esperado 100 alcaçado 70</p>
-                </Card>
+                <SalesCard />
                 <Card title="Meta mensal">
                     <p>grafico</p>
                     <p>Esperado R$ 70K Alcançado R$ 63K</p>

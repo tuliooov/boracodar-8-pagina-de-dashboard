@@ -8,9 +8,6 @@ export const Root = styled.div`
   min-height: 296px;
   border-radius: 16px;
   padding: 29px 48px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 `
 
 export const Text = styled.p`
