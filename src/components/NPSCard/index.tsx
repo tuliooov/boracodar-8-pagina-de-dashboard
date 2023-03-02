@@ -1,14 +1,14 @@
 'use client';
 
-import Image from "next/image";
 import Card from "../Card";
 import ExcelentResult from "./results";
+import { Text } from './style'
 
 export default function NPSCard() {
     return (
         <Card title="NPS geral">
             <ExcelentResult />
-            <p>NPS Score 75</p>
+            <Text>NPS Score 75</Text>
         </Card>   
     )
 }
