@@ -10,6 +10,7 @@ export const Root = styled.div`
   padding: 29px 48px;
 `
 
+
 export const Text = styled.p`
   display: flex;
   flex-direction: row;

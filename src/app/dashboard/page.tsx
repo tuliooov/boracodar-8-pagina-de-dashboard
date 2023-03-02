@@ -1,6 +1,7 @@
 'use client';
 
 import Card from "@/components/Card";
+import GoalCard from "@/components/GoalCard";
 import NPSCard from "@/components/NPSCard";
 import SalesCard from "@/components/SalesCard";
 import { Root, Row } from "./style";
@@ -13,10 +14,7 @@ export default function Dashboard({ searchParams }: any) {
             <Row columns={3} textAlign="center">
                 <NPSCard />
                 <SalesCard />
-                <Card title="Meta mensal">
-                    <p>grafico</p>
-                    <p>Esperado R$ 70K Alcançado R$ 63K</p>
-                </Card>
+                <GoalCard /> 
             </Row>
             <Row columns={1} textAlign="left">
                 <Card title="Vendas por dia da semana">

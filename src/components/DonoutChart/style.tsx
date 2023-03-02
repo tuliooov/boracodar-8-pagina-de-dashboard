@@ -26,7 +26,7 @@ export const Svg = styled.svg<{porcentage: number}>`
 
   width: 19.7rem;
   height: 19.7rem;
-  transform: rotate(-90deg) scale(0.7);
+  transform: rotate(-90deg) scale(0.8);
 
   circle {
     stroke-dasharray: 618;
