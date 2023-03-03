@@ -11,8 +11,12 @@ export default function SalesCard() {
         <Card title="Vendas fechadas">
             <DonoutChart tag="sales-card" colors={["#CE9FFC","#7367F0" ]} percentage={70}/>
             <Numbers>
-                <Text><Dot tag="dot-sales-expect" />Esperado 100</Text>
-                <Text><Dot tag="dot-sales-result" colors={["#CE9FFC","#7367F0" ]}/>Alcançado 70</Text>
+                <div>
+                    <Dot tag="dot-sales-expect" /><Text>Esperado 100</Text>
+                </div>
+                <div>
+                    <Dot tag="dot-sales-result" colors={["#CE9FFC","#7367F0" ]}/><Text>Alcançado 70</Text>
+                </div>
             </Numbers>
         </Card>   
     )

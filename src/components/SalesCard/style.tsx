@@ -25,4 +25,12 @@ export const Numbers = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+  div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+  }
 `

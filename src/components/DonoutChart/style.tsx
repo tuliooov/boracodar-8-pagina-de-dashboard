@@ -55,5 +55,9 @@ export const Svg = styled.svg<{porcentage: number}>`
   }
 
 
+  @media only screen and (max-width: 768px) {
+    position: relative;
+    left: -15%;
+  }
 
 `

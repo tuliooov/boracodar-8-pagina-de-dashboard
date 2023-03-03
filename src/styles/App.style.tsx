@@ -10,6 +10,7 @@ export const Main = styled.div`
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  padding: 5rem 10rem;
 `
 
 export const OpenButton = styled.button`
